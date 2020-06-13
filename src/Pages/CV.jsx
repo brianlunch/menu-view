@@ -5,7 +5,7 @@ import Title from '../Components/Title'
 import CardItems from '../Components/CardItems'
 import TapImage from '../TapTagImage.PNG'
 import ScanImage from '../ScanImage.PNG'
-import CVBrianLynch from '../CVBrianLynch.pdf'
+
 /*This is the home page and makes use of the Navbar, 
 homeNavConatiner, homeStatsContainer and TitleContainer components */
 class CV extends Component {

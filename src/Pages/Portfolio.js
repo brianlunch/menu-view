@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import pavMenu from '../PavMenu.PNG'
 import Navbar from '../Components/Navbar'
-import PortfolioItem from '../Components/PortfolioItem'
+
 
 /*This is the home page and makes use of the Navbar, 
 homeNavConatiner, homeStatsContainer and TitleContainer components */
