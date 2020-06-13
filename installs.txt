@@ -1,0 +1,14 @@
+npm i -S @fortawesome/fontawesome-svg-core @fortawesome/react-fontawesome
+npm i -S @fortawesome/free-brands-svg-icons
+npm i -S @fortawesome/free-solid-svg-icons
+
+
+npm i bootstrap
+
+npm i history
+
+npm i react-bootstrap
+
+npm i react-router-dom
+
+npm i axios
