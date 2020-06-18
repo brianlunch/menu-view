@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/menu-view/static/css/main.fc084924.chunk.css",
-    "main.js": "/menu-view/static/js/main.88b99431.chunk.js",
-    "main.js.map": "/menu-view/static/js/main.88b99431.chunk.js.map",
+    "main.css": "/menu-view/static/css/main.af53ebb5.chunk.css",
+    "main.js": "/menu-view/static/js/main.b5dbc008.chunk.js",
+    "main.js.map": "/menu-view/static/js/main.b5dbc008.chunk.js.map",
     "runtime-main.js": "/menu-view/static/js/runtime-main.caafd5ac.js",
     "runtime-main.js.map": "/menu-view/static/js/runtime-main.caafd5ac.js.map",
     "static/css/2.af3c1da9.chunk.css": "/menu-view/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.04158945.chunk.js": "/menu-view/static/js/2.04158945.chunk.js",
-    "static/js/2.04158945.chunk.js.map": "/menu-view/static/js/2.04158945.chunk.js.map",
+    "static/js/2.41380602.chunk.js": "/menu-view/static/js/2.41380602.chunk.js",
+    "static/js/2.41380602.chunk.js.map": "/menu-view/static/js/2.41380602.chunk.js.map",
     "index.html": "/menu-view/index.html",
-    "precache-manifest.c205bea384f951c0fc2f2c6d8bb45495.js": "/menu-view/precache-manifest.c205bea384f951c0fc2f2c6d8bb45495.js",
+    "precache-manifest.383b7eb23d14707d0def4c58a0c57e9c.js": "/menu-view/precache-manifest.383b7eb23d14707d0def4c58a0c57e9c.js",
     "service-worker.js": "/menu-view/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/menu-view/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.fc084924.chunk.css.map": "/menu-view/static/css/main.fc084924.chunk.css.map",
-    "static/js/2.04158945.chunk.js.LICENSE.txt": "/menu-view/static/js/2.04158945.chunk.js.LICENSE.txt",
+    "static/css/main.af53ebb5.chunk.css.map": "/menu-view/static/css/main.af53ebb5.chunk.css.map",
+    "static/js/2.41380602.chunk.js.LICENSE.txt": "/menu-view/static/js/2.41380602.chunk.js.LICENSE.txt",
     "static/media/PavMenu.PNG": "/menu-view/static/media/PavMenu.17538902.PNG",
+    "static/media/Sample1.PNG": "/menu-view/static/media/Sample1.c131b9a9.PNG",
     "static/media/ScanImage.PNG": "/menu-view/static/media/ScanImage.38421ac5.PNG",
     "static/media/ScanSheetLabels.PNG": "/menu-view/static/media/ScanSheetLabels.e7800a41.PNG",
     "static/media/TapTagImage.PNG": "/menu-view/static/media/TapTagImage.c8b9f8e5.PNG"
@@ -22,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.caafd5ac.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.04158945.chunk.js",
-    "static/css/main.fc084924.chunk.css",
-    "static/js/main.88b99431.chunk.js"
+    "static/js/2.41380602.chunk.js",
+    "static/css/main.af53ebb5.chunk.css",
+    "static/js/main.b5dbc008.chunk.js"
   ]
 }
