@@ -33,7 +33,7 @@ class Home extends Component {
           <div className="row justify-content-center">
             <div className="col-xs-12 col-sm-12 col-lg-12 text-center">
 
-              <Title title1="e-menu"
+              <Title title1="e-menu."
                 subtitle="A contactless menu to keep you and your customers safe.">
               </Title>
               
