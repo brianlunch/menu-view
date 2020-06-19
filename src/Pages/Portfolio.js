@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import pavMenu from '../PavMenu.PNG'
 import sample1 from '../Sample1.PNG'
+import pavMenu from '../PavMenu.PNG'
+
 import Navbar from '../Components/Navbar'
 import { Link } from 'react-router-dom'
 
