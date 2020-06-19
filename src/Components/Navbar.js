@@ -35,7 +35,7 @@ class NavbarLocal extends Component {
                 activePage.endsWith('/how-to-use') ? 'nav-link--active' : 'nav-link'
               }
             >
-              How To Use
+              About Us
             </Nav.Link>
 
             <Nav.Link

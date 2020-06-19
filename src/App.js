@@ -5,6 +5,8 @@ import AboutMe from './Pages/AboutMe'
 import CV from './Pages/CV'
 import Portfolio from './Pages/Portfolio'
 import Contact from './Pages/Contact'
+import Pav from './Pages/Pav'
+import Sample1 from './Pages/Sample1'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import ReactDOM from 'react-dom'
 import history from './Utils/History.jsx'
@@ -21,6 +23,8 @@ function App() {
           <Route exact path={'/how-to-use'}component={CV}/>
           <Route exact path={'/menu-examples'}component={Portfolio}/>
           <Route exact path={'/contact-us'}component={Contact}/>
+          <Route exact path={'/pavMenu'}component={Pav}/>
+          <Route exact path={'/sample1'}component={Sample1}/>
         </Switch>
       </Router>
     </div>

@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import pavMenu from '../PavMenu.PNG'
+import sample1 from '../Sample1.PNG'
 import Navbar from '../Components/Navbar'
+import { Link } from 'react-router-dom'
 
 
 /*This is the home page and makes use of the Navbar, 
@@ -23,29 +25,32 @@ class Portfolio extends Component {
         <br></br>
         <div className="row text-center">
 
-        <div className="col-3">
+        <div className="col-xs-12 col-sm-12 col-lg-3">
         <h4>The Pavillion Bar</h4>
         <br></br>
         <img className="menuPreview" src={pavMenu}/>
         <br></br><br></br>
-        
-        
+        <Link to={ "/pavMenu" }>
+        <button type="button" class="btn btn-outline-primary">View Menu</button>
+        </Link>
         </div>
-        <div className="col-3">
+        <div className="col-xs-12 col-sm-12 col-lg-3">
         <h4>Sample 1</h4>
         <br></br>
-        <img className="menuPreview" src={pavMenu}/>
+        <img className="menuPreview" src={sample1}/>
         <br></br><br></br>
-        
+        <Link to={ "/sample1" }>
+        <button type="button" class="btn btn-outline-primary">View Menu</button>
+        </Link>
         </div>
-        <div className="col-3">
+        <div className="col-xs-12 col-sm-12 col-lg-3">
         <h4>Sample 2</h4>
         <br></br>
         <img className="menuPreview" src={pavMenu}/>
         <br></br><br></br>
-        
+        <button type="button" class="btn btn-outline-primary">View Menu</button>
         </div>
-        <div className="col-3 textMenu">
+        <div className="col-xs-12 col-sm-12 col-lg-3 textMenu">
         <h4>Custom Menu</h4>
         <br></br>
         <h6>
@@ -53,32 +58,14 @@ class Portfolio extends Component {
           Please contact us in order to order custom menus!
         </h6>
         <br></br>
-        
-        </div>
-
-        </div>
-
-        <div className="row text-center">
-
-        <div className="col-3">
-        
-        <button type="button" class="btn btn-outline-primary">View Menu</button>
-        
-        </div>
-        <div className="col-3">
-        
-        <button type="button" class="btn btn-outline-primary">View Menu</button>
-        </div>
-        <div className="col-3">
-        
-        <button type="button" class="btn btn-outline-primary">View Menu</button>
-        </div>
-        <div className="col-3 textMenu">
-        
+        <Link to={"/contact-us"}>
         <button type="button" class="btn btn-outline-primary">Contact Us</button>
+        </Link>
         </div>
 
         </div>
+
+        
         
         </div>
         </div>

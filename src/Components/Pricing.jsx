@@ -16,12 +16,12 @@ class Pricing extends Component {
             <div class ="row justify-content-center">
                   <div class ="col-12">
                 <div class ="row no-gutters">
-                  <div className="col-4">
+                  <div className="col-xs-12 col-sm-12 col-lg-4">
                   <div className="priceOption text-center">
                 <h2 className="text-blue text-center">Basic</h2>
                 <br></br>
                 <div className="text-left features">
-                    <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Custom Menu</h6>
+                    <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Menu from samples</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;PDF of Scan Sheet</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Scannable QR Code</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;24/7 Web Hosting</h6>
@@ -50,7 +50,7 @@ class Pricing extends Component {
 
 
 
-                  <div className="col-4">
+                  <div className="col-xs-12 col-sm-12 col-lg-4">
                   <div className="priceOption text-center">
                 <h2 className="text-blue text-center">Intermediate</h2>
                 <br></br>
@@ -86,7 +86,7 @@ class Pricing extends Component {
 
 
                   
-                  <div className="col-4">
+                  <div className="col-xs-12 col-sm-12 col-lg-4">
                   <div className="priceOption text-center">
                 <h2 className="text-blue text-center">Premium</h2>
                 <br></br>

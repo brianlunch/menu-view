@@ -31,9 +31,9 @@ class Home extends Component {
 
         <div className="HomePageContent text-center">
           <div className="row justify-content-center">
-            <div className="col-12 text-center">
+            <div className="col-xs-12 col-sm-12 col-lg-12 text-center">
 
-              <Title title1="MenuView"
+              <Title title1="e-menu"
                 subtitle="A contactless menu to keep you and your customers safe.">
               </Title>
               
@@ -43,17 +43,21 @@ class Home extends Component {
 
            <br></br><br></br>
              <div class = "row justify-content-center">
-             
+             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-2">
             <CardItems  title1="How it" title2="Works" link="how-to-use" style="card zoom Card-blue" icon="QR"></CardItems>
+            </div>
             
             
             
-            
-           
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-2">
             <CardItems  title1="Menu" title2="Examples" link="menu-examples" style="card zoom Card-blue" icon="menu"></CardItems>
+            </div>
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-2">
             <CardItems  title1="Monthly" title2="Pricing" link="pricing" style="card zoom Card-blue" icon="euro"></CardItems>
+            </div>
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-2">
             <CardItems  title1="Contact" title2="Us" link="contact-us" style="card zoom Card-blue" icon="contact"></CardItems>
-            
+            </div>
             </div>
              </div>
         </div>

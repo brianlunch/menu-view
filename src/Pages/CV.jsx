@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Navbar from '../Components/Navbar'
-import Title from '../Components/Title'
-import CardItems from '../Components/CardItems'
 import TapImage from '../TapTagImage.PNG'
 import ScanImage from '../ScanImage.PNG'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faQrcode, faWheelchair, faVirus, faEuroSign} from '@fortawesome/free-solid-svg-icons'
 
 /*This is the home page and makes use of the Navbar, 
 homeNavConatiner, homeStatsContainer and TitleContainer components */
@@ -20,46 +20,86 @@ return (
 
    <div className="howTo">
    <div className="row">
-         <div className="col-6">
-   <h2 className="text-blue">What is MenuView?</h2>
+         <div className="col-xs-12 col-sm-12 col-lg-7 what">
+   <h2 className="text-blue">What is e-menu?</h2>
    <br></br>
-   MenuView is an online menu platform, created in order to protect businesses and their customers in light of the recent Covid19 pandemic. 
-   <br></br><br></br>It avoids the need for customers to touch potentially infectious menus and allow them to view
-   the menu from their smartphone or any other device.
+   <b>e-menu</b> is an online menu platform, created in light of the recent Covid19 pandemic. 
    <br></br><br></br>
-   MenuView provides businesses with their own online menu and a scan sheet. This scan sheet contains all the customer needs to view the online
-   menu including a QR code, a Tap Tag and a URL. 
-   <br></br><br></br><br></br>
+   We provide businesses with their own online menu and a scan sheet. This scan sheet contains all the customer needs to view the online
+   menu including a QR code, a Tap Tag and a URL. The benefts include:
+   <br></br><br></br>
+   <div className="row cardTings">
+      <div className="col-6">
+   <div className="card zoom text-center">
+   <h3 className="text-blue"><FontAwesomeIcon icon={faVirus}/></h3>
+      Avoids customers & employees touching potentially infectious menus.
+      <br></br><br></br>
+   </div>
+   </div>
+   <div className="col-6">
+   <div className="card zoom text-center">
+   <h3 className="text-blue"><FontAwesomeIcon icon={faWheelchair}/></h3>
+      Improves menu acess for visually impaired customers, using smartphones accesbility features.
+   </div>
+   </div>
+   </div>
+   <br/> 
+   <div className="row cardTings">
+   <div className="col-6">
+   <div className="card zoom text-center">
+   <h3 className="text-blue"><FontAwesomeIcon icon={faEuroSign}/></h3>
+      Changing menu design and content is faster and cheaper than printed menus.
+      
+   </div>
+   </div>
+   <br></br>
+   <div className="col-6">
+   <div className="card zoom text-center">
+   <h3 className="text-blue">www.</h3>
+      Improves a businesses online prescence and ethical image.<br></br><br></br>
    </div>
    </div>
    
-      
-      <div className="row">
-         <div className="col-2">
-            <img className ="TapImg" src={TapImage}/>
-         </div>
-         <div className="col-3">
+   </div>
+   
+   
+   
+   </div>
+   
+   <div className="col-xs-12 col-sm-12 col-lg-5 how">
+   <h2 className="text-blue">How do I use e-menu?</h2><br></br>
+   <div className="row text-center ">
+         
+         <div className="col-xs-6 col-sm-6 col-lg-6 text-left">
             <h3>Tap Smarthphone on the Tap Tag</h3>
             Simply tap your smartphone off the Tap Tag which is on the Scan Sheet provided.
          </div>
-         <div className="col-1">
-            <h1>OR</h1>
+         <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <img className ="TapImg" src={TapImage}/>
          </div>
-         <div className="col-3">
+         <div className="col-xs-12 col-sm-12 col-lg-12">
+            <br></br><h1>OR</h1><br></br>
+         </div>
+         <div className="col-xs-6 col-sm-6 col-lg-6 text-left">
             <h3>Scan the QR Code using Phone</h3>
             Simply scan the QR code using any QR scanner on any smartphone device.
          </div>
-         <div className="col-2">
+         <div className="col-xs-6 col-sm-6 col-lg-6">
             <img className ="TapImg" src={ScanImage}/>
          </div>
 
       </div>
+   </div>
+   </div>
+   
+      
+      
       
       <br></br><br></br>
       <h2 className="text-blue">Further Explanation</h2>
       <br></br>
       <div class ="row">
-         <div class = "col-6">
+         <div class = "col-xs-12 col-lg-6">
             <ul>
                <h5>
                   <li>An Online menu</li>
@@ -75,7 +115,7 @@ return (
                </p>
             </ul>
          </div>
-         <div className="col-6">
+         <div className="col-xs-12 col-lg-6 ">
             <ul>
                <h5>
                   <li>Contactless "Tap Tags".</li>
