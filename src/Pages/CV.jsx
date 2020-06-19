@@ -98,7 +98,7 @@ return (
       <br></br><br></br>
       <h2 className="text-blue">Further Explanation</h2>
       <br></br>
-      <div class ="row">
+      <div class ="row text-black">
          <div class = "col-xs-12 col-lg-6">
             <ul>
                <h5>
