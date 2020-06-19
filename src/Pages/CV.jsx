@@ -23,7 +23,7 @@ return (
          <div className="col-xs-12 col-sm-12 col-lg-7 what">
    <h2 className="text-blue">What is e-menu?</h2>
    <br></br>
-   <b>e-menu</b> is an online menu platform, created in light of the recent Covid19 pandemic. 
+   <b>e-menu</b> is an online menu platform, created in light of the recent Covid-19 pandemic. 
    <br></br><br></br>
    We provide businesses with their own online menu and a scan sheet. This scan sheet contains all the customer needs to view the online
    menu including a QR code, a Tap Tag and a URL. The benefts include:
