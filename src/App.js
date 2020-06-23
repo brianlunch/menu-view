@@ -9,6 +9,7 @@ import Pav from './Pages/Pav'
 import Sample1 from './Pages/Sample1'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import ReactDOM from 'react-dom'
+import { HashRouter } from 'react-router-dom'
 import history from './Utils/History.jsx'
 import './style.css'
 import './App.css'
@@ -16,7 +17,7 @@ import './App.css'
 function App() {
   return (
     <div className="App">
-      <Router basename={process.env.PUBLIC_URL} history={history}>
+      <HashRouter basename={process.env.PUBLIC_URL} history={history}>
         <Switch>
           <Route exact path={'/'}component={Home}/>
           <Route exact path={'/pricing'}component={AboutMe}/>
@@ -26,7 +27,7 @@ function App() {
           <Route exact path={'/pavMenu'}component={Pav}/>
           <Route exact path={'/sample1'}component={Sample1}/>
         </Switch>
-      </Router>
+      </HashRouter>
     </div>
   )
 }
