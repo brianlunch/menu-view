@@ -32,7 +32,7 @@ class Sample1 extends Component {
          
          <div class="col-xs-10 col-sm-10 col-lg-11">
             <br/>
-            <h1 class ="text-center text-black">Your Cafe name</h1>
+            <h1 class ="text-center text-black">Cafe </h1>
             <br/><br/>
             <div class="row text-center">
                <div class = "col-xs-12 col-sm-12 col-lg-6 text-left menu-column1">
@@ -58,11 +58,11 @@ class Sample1 extends Component {
                   </div>
                   <div class ="row menu-item">
                      <div class = "col-8">
-                        <h4> Knuckle Sandwich</h4>
-                        <p className="text-black"> For those who bring in can from centra. Served with salad and fries.</p>
+                        <h4>BLT - Bacon Lettuce & Tomato</h4>
+                        <p className="text-black">White or Brown bread with bacon, lettuce and tomato. Served with Fries and Salad. </p>
                      </div>
                      <div class = "col-4 text-right">
-                        <h4>Free </h4>
+                        <h4>€9 </h4>
                      </div>
                   </div>
                   <div class ="row menu-item">
