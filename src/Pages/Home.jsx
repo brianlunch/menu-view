@@ -4,7 +4,7 @@ import Navbar from '../Components/Navbar'
 import Title from '../Components/Title'
 import CardItems from '../Components/CardItems'
 
-
+import logo from '../emenu.png'; // with import
 
 /*This is the home page and makes use of the Navbar, 
 homeNavConatiner, homeStatsContainer and TitleContainer components */
@@ -32,12 +32,11 @@ class Home extends Component {
         <Navbar history={this.state.history} />
 
         <div className="HomePageContent text-center">
+        <br/><br/><br/>
           <div className="row justify-content-center">
             <div className="col-xs-12 col-sm-12 col-lg-12 text-center">
 
-              <Title title1="e-menu"
-                subtitle="A contactless menu to keep you and your customers safe.">
-              </Title>
+            <img src={logo} />
               
            </div>
 
