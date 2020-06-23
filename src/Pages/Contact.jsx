@@ -20,7 +20,7 @@ return (
       <Navbar history={this.state.history} />
        <div className={"howTo"}>
        <div className="row">
-           <div className="col-6">
+           <div className="col-xs-12 col-sm-12 col-lg-6">
                <h2 className="text-blue">Contact Us</h2>
                <p>
                    Please fill in your request below:
@@ -30,7 +30,7 @@ return (
 
                    </div>
                    <div className="row">
-                       <div className="col-sm-12 form-group">
+                       <div className="col-xs-12 col-sm-12 col-lg-6 form-group">
                            <label htmlFor="comments">
                                Comments:</label>
                            <textarea className="form-control" type="textarea" name="comments" id="comments"
