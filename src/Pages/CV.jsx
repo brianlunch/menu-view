@@ -37,7 +37,7 @@ return (
 
    <p><b>e-menu</b> was created by two irish students in light of the recent Covid-19 pandemic to ensure the safety of business employees and customers. </p>
    
-   <p>For more in-depth info please visit our frequently asked questions page</p>
+   <p>Please feel free to contact us with any questions you might have!</p>
    </div>
    
    
