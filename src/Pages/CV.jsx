@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Navbar from '../Components/Navbar'
 import TapImage from '../TapTagImage.PNG'
+import Video from '../e_menu.mp4'
 import ScanImage from '../ScanImage.PNG'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQrcode, faWheelchair, faVirus, faEuroSign} from '@fortawesome/free-solid-svg-icons'
@@ -19,20 +20,19 @@ return (
    <Navbar history={this.state.history} />
 
    <div className="howTo">
-   <div className="row">
+   <div className="row align-items-end">
 
-   <div className="col-xs-12 col-sm-12 col-lg-6 how">
+   <div className="col-xs-12 col-sm-12 col-lg-5 how">
    
-   <div className="row text-center ">
+   
          
-         
+   <video loop muted autostart autoPlay src={Video} type="video/mp4" />
 
-      </div>
+      
    </div>
 
          <div className="col-xs-12 col-sm-12 col-lg-6 what">
-   <h2 className="text-blue">What is e-menu?</h2>
-   <br/>
+   
    <p><b>e-menu</b> provides businesses with contactless menus and a scan sheet. The scan sheet contains a QR code, Tap Tag and URL in order to view the menu.</p>
 
    <p><b>e-menu</b> was created by two irish students in light of the recent Covid-19 pandemic to ensure the safety of business employees and customers. </p>

@@ -119,6 +119,7 @@ a:hover {
 p{color:#000000 !important;
   font-size: 18px;}
 
+  video{width: 100%; height:auto;}
 
 .Card-red{
   color: var(--red) !important;
@@ -260,7 +261,7 @@ padding: 4%;
 
 .howTo{
   padding-left:3%;
-  padding-top: 1%;
+  padding-top: 5%;
 }
 
 .whatPage{
@@ -309,7 +310,7 @@ Button{
 
 .TapImg{width:60%;height:auto;}
 
-.what{border-right:1px solid var(--blue);
+.what{
 padding-right:4%;
 font-size: 1.05rem;
 font-weight:470;}
