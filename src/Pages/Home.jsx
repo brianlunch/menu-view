@@ -36,7 +36,8 @@ class Home extends Component {
           <div className="row justify-content-center">
             <div className="col-xs-12 col-sm-12 col-lg-12 text-center">
 
-            <img src={logo} />
+            <img src={logo} /><br/><br/>
+            <h4>An Online Contactless Menu Platform, keeping your customers & business safe.</h4>
               
            </div>
 

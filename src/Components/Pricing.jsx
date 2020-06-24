@@ -21,27 +21,28 @@ class Pricing extends Component {
                 <h2 className="text-blue text-center">Basic</h2>
                 <br></br>
                 <div className="text-left features">
-                    <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Menu from samples</h6>
+                    <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Menu From Samples</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;PDF of Scan Sheet</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Scannable QR Code</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;24/7 Web Hosting</h6>
                     <h6 ><FontAwesomeIcon className="text-red" icon={faTimes}/>&nbsp;&nbsp;Custom Scan Sheet</h6>
                     <h6 ><FontAwesomeIcon className="text-red" icon={faTimes}/>&nbsp;&nbsp;Contactless Tap Tag</h6>
                     <h6 ><FontAwesomeIcon className="text-red" icon={faTimes}/>&nbsp;&nbsp;Printed Scan Sheet</h6>
-                    <h6 ><FontAwesomeIcon className="text-red" icon={faTimes}/>&nbsp;&nbsp;Interactive Menu</h6>
-                    <h6 ><FontAwesomeIcon className="text-red" icon={faTimes}/>&nbsp;&nbsp;10x Acrylic Sheet Holders</h6>
+                    <h6 ><FontAwesomeIcon className="text-red" icon={faTimes}/>&nbsp;&nbsp; <b>Free</b> Menu Changes for 1 month</h6>
                     </div>
                   <br></br>
                   
+                  
                   <div className="row">
                   <div class="col-5 align-self-center">
-                  <h3>€20</h3> <h5>One off Payment</h5>
+                  <h3>€40</h3>
                   </div>
                   <div class="col-2 align-self-center">And</div>
                   <div class="col-5 align-self-center">
-                  <h3>€10</h3> <h5>A month</h5>
+                  <h5>€5 per menu Change</h5>
                   </div>
                   </div>
+                  
                   <br></br>
                   <button type="button" class="btn btn-outline-primary">Order This Plan</button>
                   <br></br><br></br>
@@ -55,28 +56,29 @@ class Pricing extends Component {
                 <h2 className="text-blue text-center">Intermediate</h2>
                 <br></br>
                     <div className="text-left features">
-                    <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Custom Menu</h6>
+                    <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Menu From Samples</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;PDF of Scan Sheet</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Scannable QR Code</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;24/7 Web Hosting</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Custom Scan Sheet</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Contactless Tap Tag</h6>
-                    <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Printed Scan Sheet</h6>
-                    <h6 ><FontAwesomeIcon className="text-red" icon={faTimes}/>&nbsp;&nbsp;Interactive Menu</h6>
-                    <h6 ><FontAwesomeIcon className="text-red" icon={faTimes}/>&nbsp;&nbsp;10x Acrylic Sheet Holders</h6>
+                    <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp; 5x A5 Printed Scan Sheets</h6>
+                    <h6 ><FontAwesomeIcon className="text-red" icon={faTimes}/>&nbsp;&nbsp; <b>Free</b> Menu Changes for 1 month</h6>
+                    
+                    
                     </div>
                   <br></br>
-
                   <div className="row">
                   <div class="col-5 align-self-center">
-                  <h3>€40</h3> <h5>One off Payment</h5>
+                  <h3>€60</h3>
                   </div>
                   <div class="col-2 align-self-center">And</div>
                   <div class="col-5 align-self-center">
-                  <h3>€10</h3> <h5>A month</h5>
+                  <h5>€5 per menu Change</h5>
                   </div>
                   </div>
                   <br></br>
+
                   <button type="button" class="btn btn-outline-primary">Order This Plan</button>
                   <br></br><br></br>
                 </div>
@@ -97,19 +99,20 @@ class Pricing extends Component {
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;24/7 Web Hosting</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Custom Scan Sheet</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Contactless Tap Tag</h6>
-                    <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Printed Scan Sheet</h6>
-                    <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Interactive Menu</h6>
-                    <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;10x Acrylic Sheet Holders</h6>
+                    <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;10x A5 Printed Scan Sheet</h6>
+                    <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp; <b>Free</b> Menu Changes for 1 month</h6>
+                    
+                    
                     </div>
                   <br></br>
                   
                   <div className="row">
                   <div class="col-5 align-self-center">
-                  <h3>€60</h3> <h5>One off Payment</h5>
+                  <h3>€80</h3>
                   </div>
                   <div class="col-2 align-self-center">And</div>
                   <div class="col-5 align-self-center">
-                  <h3>€10</h3> <h5>A month</h5>
+                  <h5>€5 per menu Change</h5>
                   </div>
                   </div>
                   <br></br>
