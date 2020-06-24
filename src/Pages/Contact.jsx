@@ -84,7 +84,7 @@ return (
                   </a>
                 </div>
                 <div className="zoom col-2">
-                  <a target="_blank" href="http://www.brianlunch.github.io/Personal">
+                  <a target="_blank" href="http://brianlunch.github.io/Personal">
                     <h1 className="text-blue"><FontAwesomeIcon icon={faGlobe} /></h1>
                   </a>
                 </div>
