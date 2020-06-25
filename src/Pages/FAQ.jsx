@@ -46,6 +46,17 @@ return (
                   </Card.Body>
                </Accordion.Collapse>
             </Card>
+            <br/>
+            <h4>What is...</h4>
+            <Card>
+               <Accordion.Toggle as={Card.Header} eventKey="9">
+                  <b>What is an online menu?</b>
+               </Accordion.Toggle>
+               <Accordion.Collapse eventKey="9">
+                  <Card.Body>   An online menu is simply a menu built using HTML which allows it to be displayed on the internet. Examples of our online menus can be found <Link className="link" to="menu-examples">here</Link>.
+                  </Card.Body>
+               </Accordion.Collapse>
+            </Card>
             <Card>
                <Accordion.Toggle as={Card.Header} eventKey="4">
                   <b>What is a scan sheet?</b>
@@ -85,6 +96,8 @@ return (
                   </Card.Body>
                </Accordion.Collapse>
             </Card>
+            <br/>
+            <h4>General</h4>
             <Card>
                <Accordion.Toggle as={Card.Header} eventKey="3">
                  <b>Do I need any technical knowledge to implement this?

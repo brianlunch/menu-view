@@ -6,7 +6,7 @@ import Video from '../e_menu.mp4'
 import ScanImage from '../ScanImage.PNG'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQrcode, faWheelchair, faVirus, faEuroSign} from '@fortawesome/free-solid-svg-icons'
-
+import { Link } from 'react-router-dom'
 /*This is the home page and makes use of the Navbar, 
 homeNavConatiner, homeStatsContainer and TitleContainer components */
 class CV extends Component {
@@ -37,7 +37,7 @@ return (
 
    <p><b>e-menu</b> was created by two irish students in light of the recent Covid-19 pandemic to ensure the safety of business employees and customers. </p>
    
-   <p>Please feel free to contact us with any questions you might have!</p>
+   <p>For more in-depth info check out our <Link className="link" to="/faq">Frequently Asked Questions</Link> page.</p>
    </div>
    
    
