@@ -17,7 +17,7 @@ return (
 <div className=" slide-in-fwd-center text-left">
    <Navbar history={this.state.history} />
    <div class="row contact">
-      <div className="col-6">
+      <div className="col-xs-12 col-sm-12 col-lg-6">
           <h2 className="text-blue">Frequently Asked Questions</h2>
           <p>If you have any other questions please feel free to <Link className="link" to="contact-us">contact us</Link>.</p>
          <br/>
