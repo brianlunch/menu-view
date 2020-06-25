@@ -108,8 +108,8 @@ a:hover {
 .headline{
   padding-left:2.5%;
 }
-
-.card{
+.card-body{padding:2rem !important;}
+.card1{
   border-radius:5%;
   padding:2%;
   border-color: darkgray;
@@ -263,7 +263,10 @@ padding: 4%;
   padding-left:3%;
   padding-top: 5%;
 }
-
+.contact{
+  padding-left:3%;
+  padding-top: 1%;
+}
 .price{
   
   padding-left:3%;

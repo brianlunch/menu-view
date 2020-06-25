@@ -62,6 +62,16 @@ class NavbarLocal extends Component {
 
             <Nav.Link
               as={Link}
+              to="/faq"
+              className={
+                activePage.endsWith('/faq') ? 'nav-link--active' : 'nav-link'
+              }
+            >
+              FAQ
+            </Nav.Link>
+
+            <Nav.Link
+              as={Link}
               to="/contact-us"
               className={
                 activePage.endsWith('/contact-us') ? 'nav-link--active' : 'nav-link'

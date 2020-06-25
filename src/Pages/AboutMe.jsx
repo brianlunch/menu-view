@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Navbar from '../Components/Navbar'
 import Pricing from '../Components/Pricing'
 import ScanSheet from '../ScanSheetLabels.PNG'
-
+import { Link } from 'react-router-dom'
 
 
 /*This is the home page and makes use of the Navbar, 
@@ -23,7 +23,9 @@ class AboutMe extends Component {
                 <div className="price">
                 <h2 className="text-blue">Pricing</h2>
                 
-                <h4>We have 3 different pricing models to choose from: </h4><br></br>
+                <h4>We have 3 different pricing models to choose from: </h4>
+                <p >Need help choosing a plan? Fell free to <Link className="link text-blue" to ="/contact-us">Contact Us</Link>.</p>
+                <br></br>
                 <div className="row justify-content-center">
                 <Pricing></Pricing>
                 </div>
