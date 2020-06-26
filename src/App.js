@@ -15,8 +15,23 @@ import { HashRouter } from 'react-router-dom'
 import history from './Utils/History.jsx'
 import './style.css'
 import './App.css'
+import ReactGA from 'react-ga';
+
+function initializeReactGA() {
+  ReactGA.initialize('UA-171059896-1');
+  ReactGA.pageview('/#/');
+  ReactGA.pageview('/#/pricing');
+  ReactGA.pageview('/#/how-to-use');
+}
 
 function App() {
+
+  function initializeReactGA() {
+    ReactGA.initialize('UA-123791717-1');
+    ReactGA.pageview('/#/');
+    ReactGA.pageview('/#/pricing');
+    ReactGA.pageview('/#/how-to-use');
+  }
   return (
     <div className="App">
       <HashRouter basename={process.env.PUBLIC_URL} history={history}>
