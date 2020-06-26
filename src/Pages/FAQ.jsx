@@ -5,7 +5,7 @@ import pavMenu from '../PavMenu.PNG'
 import { Card, Accordion, Button } from 'react-bootstrap';
 import Navbar from '../Components/Navbar'
 import { Link } from 'react-router-dom'
-/*This is the home page and makes use of the Navbar, 
+/*This is the home page and makes use of the Navbar,
 homeNavConatiner, homeStatsContainer and TitleContainer components */
 class FAQ extends Component {
 constructor(props) {
@@ -39,10 +39,10 @@ return (
                <Accordion.Collapse eventKey="8">
                   <Card.Body>e-menu's main goal is to help combat Covid-19 and allow busineeses to comply with the new regulations regarding food menu's.
                       <br/><br></br>
-                      The government stated that "high touch self-service items requiring frequent hand contact must be removed from use, or appropriately washed, cleaned and sanitized, and changed after each customer". 
+                      The government stated that "high touch self-service items requiring frequent hand contact must be removed from use, or appropriately washed, cleaned and sanitized, and changed after each customer".
                       <br/><br></br>
                       e-menu allows businesses to avoid having to clean their menu after each use.
-                      
+
                   </Card.Body>
                </Accordion.Collapse>
             </Card>
@@ -53,7 +53,7 @@ return (
                   <b>What is an online menu?</b>
                </Accordion.Toggle>
                <Accordion.Collapse eventKey="9">
-                  <Card.Body>   An online menu is simply a menu built using HTML which allows it to be displayed on the internet. Examples of our online menus can be found <Link className="link" to="menu-examples">here</Link>.
+                  <Card.Body>   An online menu is simply a webpage that contains the items from your usual menu which allows it to be displayed on any device that can connect to the internet. Examples of our online menus can be found <Link className="link" to="menu-examples">here</Link>.
                   </Card.Body>
                </Accordion.Collapse>
             </Card>
@@ -63,7 +63,7 @@ return (
                </Accordion.Toggle>
                <Accordion.Collapse eventKey="4">
                   <Card.Body>
-                      A scan sheet is a sheet we provide to you that will be placed on every table in your business. This scan sheet can be customised to fit your aesthetic and contains all necessary info necessary for customers to view the online menu.
+                      A scan sheet is a sheet we provide to you that will be placed on every table in your business. This scan sheet can be customised to fit your aesthetic and contains all info necessary for customers to view the online menu.
                   </Card.Body>
                </Accordion.Collapse>
             </Card>
@@ -75,24 +75,24 @@ return (
                   <Card.Body>
                      A QR code is a type of bar code that is readable by smarthphone devices. This QR code can be scanned using the phones camera or a third-party app.
                      <br/><br/>
-                     The QR code on our scan sheet directs the customer to the online menu as demonstarted in our "how it works"  
+                     The QR code on our scan sheet directs the customer to the online menu as demonstarted in our
                      <Link className="link" to="/how-to-use">
-                      Video</Link>.
+                        "how it works" video</Link>.
                   </Card.Body>
                </Accordion.Collapse>
             </Card>
             <Card>
                <Accordion.Toggle as={Card.Header} eventKey="2">
-                 <b>What is a Tap Tag?</b> 
+                 <b>What is a Tap Tag?</b>
                </Accordion.Toggle>
                <Accordion.Collapse eventKey="2">
                   <Card.Body>
-                     A Tap Tag is an NFC enabled tag we attach to our scan sheets which enables any smartphone to view the online menu by simply tapping their phone off the scan sheet. 
+                     A Tap Tag is an NFC enabled tag we attach to our scan sheets which enables any smartphone to view the online menu by simply tapping their phone off the scan sheet.
                      It uses the same technology as contactless credit cards.
                      <br/><br/>
-                     The Tap Tag on our scan sheet directs the customer to the online menu as demonstarted in our "how it works" 
+                     The Tap Tag on our scan sheet directs the customer to the online menu as demonstrated in our
                      <Link className="link" to="/how-to-use">
-                      Video</Link>.
+                        "how it works" video</Link>.
                   </Card.Body>
                </Accordion.Collapse>
             </Card>
@@ -132,7 +132,7 @@ return (
 
             <Card>
                <Accordion.Toggle as={Card.Header} eventKey="7">
-                 <b>What do i do if I have an issue with e-menu?
+                 <b>What do I do if I have an issue with e-menu?
                </b> </Accordion.Toggle>
                <Accordion.Collapse eventKey="7">
                   <Card.Body>
