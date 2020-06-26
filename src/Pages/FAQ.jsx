@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import sample1 from '../Sample1.PNG'
-import pavMenu from '../PavMenu.PNG'
+
 import { Card, Accordion, Button } from 'react-bootstrap';
 import Navbar from '../Components/Navbar'
 import { Link } from 'react-router-dom'
@@ -75,9 +74,9 @@ return (
                   <Card.Body>
                      A QR code is a type of bar code that is readable by smarthphone devices. This QR code can be scanned using the phones camera or a third-party app.
                      <br/><br/>
-                     The QR code on our scan sheet directs the customer to the online menu as demonstarted in our
+                     The QR code on our scan sheet directs the customer to the online menu as demonstarted in our  &nbsp;
                      <Link className="link" to="/how-to-use">
-                        "how it works" video</Link>.
+                     "how it works" video</Link>.
                   </Card.Body>
                </Accordion.Collapse>
             </Card>
@@ -90,13 +89,28 @@ return (
                      A Tap Tag is an NFC enabled tag we attach to our scan sheets which enables any smartphone to view the online menu by simply tapping their phone off the scan sheet.
                      It uses the same technology as contactless credit cards.
                      <br/><br/>
-                     The Tap Tag on our scan sheet directs the customer to the online menu as demonstrated in our
+                     The Tap Tag on our scan sheet directs the customer to the online menu as demonstrated in our &nbsp;
                      <Link className="link" to="/how-to-use">
                         "how it works" video</Link>.
                   </Card.Body>
                </Accordion.Collapse>
             </Card>
             <br/>
+            <h4>Payment</h4>
+            <Card>
+               <Accordion.Toggle as={Card.Header} eventKey="10">
+                 <b>How do I pay for an e-menu?
+               </b> </Accordion.Toggle>
+               <Accordion.Collapse eventKey="10">
+                  <Card.Body>
+                     Payment is made through PayPal. A €5 deposit is payed through Paypal, then our designers will implement your menu and present you with it.
+                     <br/><br/>
+                     If you are happy with the design the remaining balance is then payed through PayPal.
+                     
+                  </Card.Body>
+               </Accordion.Collapse>
+            </Card>
+            
             <h4>General</h4>
             <Card>
                <Accordion.Toggle as={Card.Header} eventKey="3">

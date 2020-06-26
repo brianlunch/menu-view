@@ -47,6 +47,9 @@ class Pricing extends Component {
                   <Link to={"/contact-us"}>
                   <button type="button" class="btn btn-outline-primary">Order This Plan</button>
                   </Link>
+                  
+
+
                   <br></br><br></br>
                 </div>
                   </div>
@@ -133,6 +136,10 @@ class Pricing extends Component {
 
                 </div>
                 </div>
+
+
+               
+
                 </div>
         
         );
