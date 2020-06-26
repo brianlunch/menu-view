@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import sample1 from '../Sample1.PNG'
+import sample2 from '../sample2.PNG'
 import pavMenu from '../PavMenu.PNG'
 
 import Navbar from '../Components/Navbar'
@@ -47,7 +48,7 @@ class Portfolio extends Component {
         <div className="col-xs-12 col-sm-12 col-lg-3">
         <h4>Sample 2</h4>
         <br></br>
-        <img className="menuPreview" src={pavMenu}/>
+        <img className="menuPreview" src={sample2}/>
         <br></br><br></br>
         <Link to={ "/sample2" }>
         <button type="button" class="btn btn-outline-primary">View Menu</button>
