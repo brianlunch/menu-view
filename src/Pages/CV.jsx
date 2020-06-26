@@ -35,7 +35,7 @@ return (
    
    <p><b>e-menu</b> provides businesses with contactless menus and a scan sheet. The scan sheet contains a QR code, Tap Tag and URL in order to view the menu.</p>
 
-   <p><b>e-menu</b> was created by two irish students in light of the recent Covid-19 pandemic to ensure the safety of business employees and customers. </p>
+   <p><b>e-menu</b> was created by two irish students in light of the recent Covid-19 pandemic to ensure the safety of a businesses employees and customers. </p>
    
    <p>For more in-depth info check out our <Link className="link" to="/faq">Frequently Asked Questions</Link> page.</p>
    </div>
@@ -75,7 +75,7 @@ return (
    <div className="zoom text-center">
    <h1 className="text-blue"><FontAwesomeIcon icon={faEuroSign}/></h1>
      <h5>Quick & Cheap Changes</h5>
-     Changing menu design/content is faster & cheaper than printed menus. Small changes (eg. price) are <b>Free</b>.
+     Changing menu design/content is faster & cheaper than printed menus. See <Link className="link" to="/pricing">pricing</Link> for more info.
      <br/><br/></div>
    </div>
    <br></br>

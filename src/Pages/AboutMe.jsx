@@ -24,7 +24,7 @@ class AboutMe extends Component {
                 <h2 className="text-blue">Pricing</h2>
                 
                 <h4>We have 3 different pricing models to choose from: </h4>
-                <p >Need help choosing a plan? Fell free to <Link className="link text-blue" to ="/contact-us">Contact Us</Link>.</p>
+                <p >Need help choosing a plan? Feel free to <Link className="link text-blue" to ="/contact-us">Contact Us</Link>.</p>
                 <br></br>
                 <div className="row justify-content-center">
                 <Pricing></Pricing>
