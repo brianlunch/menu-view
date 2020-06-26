@@ -32,17 +32,17 @@ class Pricing extends Component {
                     </div>
                   <br></br>
                   
-                  
+                  <br></br>
                   <div className="row">
                   <div class="col-5 align-self-center">
-                  <h3>€40</h3>
+                  <h3>€30</h3>
                   </div>
                   <div class="col-2 align-self-center">And</div>
                   <div class="col-5 align-self-center">
                   <h5>€5 per menu Change</h5>
                   </div>
                   </div>
-                  
+                  <br></br><br></br><br></br>
                   <br></br>
                   <Link to={"/contact-us"}>
                   <button type="button" class="btn btn-outline-primary">Order This Plan</button>
@@ -65,6 +65,7 @@ class Pricing extends Component {
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Custom Scan Sheet</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Contactless Tap Tag</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp; 5x A5 Printed Scan Sheets</h6>
+                    <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp; 5x A5 Sheet Holders</h6>
                     <h6 ><FontAwesomeIcon className="text-red" icon={faTimes}/>&nbsp;&nbsp; <b>Free</b> Menu Changes for 1 month</h6>
                     
                     
@@ -79,6 +80,7 @@ class Pricing extends Component {
                   <h5>€5 per menu Change</h5>
                   </div>
                   </div>
+                  <p>Extra scan sheets can be printed for €1 & extra acrylic holders for €3.</p>
                   <br></br>
                   <Link to={"/contact-us"}>
                   <button type="button" class="btn btn-outline-primary">Order This Plan</button>
@@ -103,6 +105,7 @@ class Pricing extends Component {
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Custom Scan Sheet</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Contactless Tap Tag</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;10x A5 Printed Scan Sheet</h6>
+                    <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;10x A5 Sheet Holders</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp; <b>Free</b> Menu Changes for 1 month</h6>
                     
                     
@@ -111,13 +114,14 @@ class Pricing extends Component {
                   
                   <div className="row">
                   <div class="col-5 align-self-center">
-                  <h3>€80</h3>
+                  <h3>€90</h3>
                   </div>
                   <div class="col-2 align-self-center">And</div>
                   <div class="col-5 align-self-center">
                   <h5>€5 per menu Change</h5>
                   </div>
                   </div>
+                  <p>Extra scan sheets can be printed for €1 & extra acrylic holders for €3.</p>
                   <br></br>
                   <Link to={"/contact-us"}>
                   <button type="button" class="btn btn-outline-primary">Order This Plan</button>
