@@ -32,6 +32,7 @@ function App() {
           <Route exact path={'/faq'}component={FAQ}/>
         </Switch>
       </HashRouter>
+      
     </div>
   )
 }
