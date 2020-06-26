@@ -49,7 +49,9 @@ class Portfolio extends Component {
         <br></br>
         <img className="menuPreview" src={pavMenu}/>
         <br></br><br></br>
+        <Link to={ "/sample2" }>
         <button type="button" class="btn btn-outline-primary">View Menu</button>
+        </Link>
         </div>
         <div className="col-xs-12 col-sm-12 col-lg-3 textMenu">
         <h4>Custom Menu</h4>

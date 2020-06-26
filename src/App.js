@@ -7,6 +7,7 @@ import Portfolio from './Pages/Portfolio'
 import Contact from './Pages/Contact'
 import Pav from './Pages/Pav'
 import Sample1 from './Pages/Sample1'
+import Sample2 from './Pages/Sample2'
 import FAQ from './Pages/FAQ'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import ReactDOM from 'react-dom'
@@ -27,6 +28,7 @@ function App() {
           <Route exact path={'/contact-us'}component={Contact}/>
           <Route exact path={'/pavMenu'}component={Pav}/>
           <Route exact path={'/sample1'}component={Sample1}/>
+          <Route exact path={'/sample2'}component={Sample2}/>
           <Route exact path={'/faq'}component={FAQ}/>
         </Switch>
       </HashRouter>

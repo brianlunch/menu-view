@@ -75,9 +75,9 @@ return (
                   <Card.Body>
                      A QR code is a type of bar code that is readable by smarthphone devices. This QR code can be scanned using the phones camera or a third-party app.
                      <br/><br/>
-                     The QR code on our scan sheet directs the customer to the online menu as demonstarted in our "how it works" 
+                     The QR code on our scan sheet directs the customer to the online menu as demonstarted in our "how it works"  
                      <Link className="link" to="/how-to-use">
-                     Video</Link>.
+                      Video</Link>.
                   </Card.Body>
                </Accordion.Collapse>
             </Card>
@@ -92,7 +92,7 @@ return (
                      <br/><br/>
                      The Tap Tag on our scan sheet directs the customer to the online menu as demonstarted in our "how it works" 
                      <Link className="link" to="/how-to-use">
-                     Video</Link>.
+                      Video</Link>.
                   </Card.Body>
                </Accordion.Collapse>
             </Card>
