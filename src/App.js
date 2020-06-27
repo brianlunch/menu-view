@@ -30,7 +30,12 @@ function App() {
     ReactGA.pageview('/#/');
     ReactGA.pageview('/#/pricing');
     ReactGA.pageview('/#/how-to-use');
-  
+    ReactGA.pageview('/#/menu-examples');
+    ReactGA.pageview('/#/contact-us');
+    ReactGA.pageview('/#/pavMenu');
+    ReactGA.pageview('/#/sample1');
+    ReactGA.pageview('/#/sample2');
+    ReactGA.pageview('/#/faq');
   return (
     <div className="App">
       <HashRouter basename={process.env.PUBLIC_URL} history={history}>

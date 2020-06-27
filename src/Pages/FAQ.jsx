@@ -36,7 +36,7 @@ return (
                   <b>Why do I need e-menu?</b>
                </Accordion.Toggle>
                <Accordion.Collapse eventKey="8">
-                  <Card.Body>e-menu's main goal is to help combat Covid-19 and allow busineeses to comply with the new regulations regarding food menu's.
+                  <Card.Body>e-menu's main goal is to help combat Covid-19 and allow businesses to comply with the new regulations regarding food menu's.
                       <br/><br></br>
                       The government stated that "high touch self-service items requiring frequent hand contact must be removed from use, or appropriately washed, cleaned and sanitized, and changed after each customer".
                       <br/><br></br>
