@@ -22,7 +22,7 @@ return (
    <div className="howTo">
    <div className="row align-items-center">
 
-   <div className="col-xs-12 col-sm-12 col-lg-5 how">
+   <div className="col-xs-12 col-sm-12 col-lg-5 how text-left">
    
    
          
@@ -32,10 +32,10 @@ return (
    </div>
 
          <div className="col-xs-12 col-sm-12 col-lg-6 what bg-white text-left">
-          
+          <br/>
    
          <h5 className="text-">e-menu stops Covid-19 spreading through menus by moving them to a webpage that is quickly & easily accessible without touching any surfaces</h5>
- <br/>
+ <br/><br/>
  <p>e-menu provides businesess with scan sheets that link to an online menu using contactless means such as a QR code, Tag Tag or URL. </p>
    
    <p>For more in-depth info check out our <Link className="link" to="/faq">Frequently Asked Questions</Link> page.</p>

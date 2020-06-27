@@ -14,9 +14,11 @@ class NavbarLocal extends Component {
     // var isActive = this.context.router.route.location.pathname
     let activePage = window.location.href
     return (
-      <Navbar>
-        <Navbar.Collapse>
-          <Nav>
+      <Navbar expand="lg">
+  
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Collapse id="responsive-navbar-nav">
+    <Nav className="mr-auto">
             <Nav.Link
               as={Link}
               to="/"
@@ -85,9 +87,9 @@ class NavbarLocal extends Component {
 
 
 
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
+            </Nav>
+  </Navbar.Collapse>
+</Navbar>
     )
   }
 }

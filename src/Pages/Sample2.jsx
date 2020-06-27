@@ -30,7 +30,7 @@ class Sample2 extends Component {
           </div>
           <div class ="row justify-content-center menuu">
          
-         <div class="col-xs-10 col-sm-10 col-lg-11">
+         <div class="col-xs-12 col-sm-12 col-lg-11">
             <br/>
             <div className="bg-white">
             <h1 class ="text-center text-black">Restaurant </h1>

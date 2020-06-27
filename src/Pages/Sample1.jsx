@@ -30,7 +30,7 @@ class Sample1 extends Component {
           </div>
           <div class ="row  menuu">
          
-         <div class="col-xs-10 col-sm-10 col-lg-11">
+         <div class="col-xs-12 col-sm-12 col-lg-11">
             <br/>
             <h1 class ="text-center text-black">Cafe </h1>
             <br/><br/>
