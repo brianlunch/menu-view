@@ -17,12 +17,12 @@ import './style.css'
 import './App.css'
 import ReactGA from 'react-ga';
 
-function initializeReactGA() {
+
   ReactGA.initialize('UA-171059896-1');
   ReactGA.pageview('/#/');
   ReactGA.pageview('/#/pricing');
   ReactGA.pageview('/#/how-to-use');
-}
+
 
 function App() {
 
