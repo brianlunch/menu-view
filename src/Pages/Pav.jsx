@@ -30,7 +30,7 @@ class Pav extends Component {
           </div>
           <div class ="row Title menuu">
          
-         <div class="col-xs-12 col-sm-12 col-lg-11">
+         <div class="col-xs-12 col-sm-12 col-lg-12">
             <br/>
             <h1 class ="text-center text-white">The Pavillion Bar</h1>
             <br/><br/>
