@@ -42,7 +42,7 @@ function App() {
         <Switch>
           <Route exact path={'/'}component={Home}/>
           <Route exact path={'/pricing'}component={AboutMe}/>
-          <Route exact path={'/how-to-use'}component={CV}/>
+          <Route exact path={'/how-to-use'}component={  Home}/>
           <Route exact path={'/menu-examples'}component={Portfolio}/>
           <Route exact path={'/contact-us'}component={Contact}/>
           <Route exact path={'/pavMenu'}component={Pav}/>
