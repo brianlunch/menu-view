@@ -24,7 +24,7 @@ class Portfolio extends Component {
           <Navbar history={this.state.history}></Navbar>
           <div className=" howTo ">
         <h2 className="text-blue text-left">Menu Examples</h2>
-        <br></br>
+        <br></br><br></br>
         <div className="row text-center">
 
         <div className="col-xs-12 col-sm-12 col-lg-3">

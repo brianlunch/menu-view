@@ -21,9 +21,9 @@ return (
           <p>If you have any other questions please feel free to <Link className="link" to="contact-us">contact us</Link>.</p>
           </div>
           </div>
-   <div class="row contact">
+   <div class="row justify-content-center contact">
 
-      <div className="col-xs-12 col-sm-12 col-lg-6">
+      <div className="col-xs-12 col-sm-12 col-lg-5">
           
       
          <Accordion defaultActiveKey="">
@@ -107,7 +107,8 @@ return (
             
          </Accordion>
       </div>
-      <div className="col-xs-12 col-sm-12 col-lg-6">
+      <div className="col-xs-12 col-sm-12 col-lg-1"></div>
+      <div className="col-xs-12 col-sm-12 col-lg-5 ">
       <Accordion defaultActiveKey="">
             
             <h4>Payment</h4>
@@ -121,6 +122,16 @@ return (
                      <br/><br/>
                      If you are happy with the design the remaining balance is then paid through PayPal.
                      
+                  </Card.Body>
+               </Accordion.Collapse>
+            </Card>
+            <Card>
+               <Accordion.Toggle as={Card.Header} eventKey="10">
+                 <b>Is the deposit refundable?
+               </b> </Accordion.Toggle>
+               <Accordion.Collapse eventKey="10">
+                  <Card.Body>
+                     The deposit is non-refundable.
                   </Card.Body>
                </Accordion.Collapse>
             </Card>

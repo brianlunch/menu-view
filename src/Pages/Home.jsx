@@ -36,19 +36,19 @@ class Home extends Component {
 
         <div className="HomePageContent text-center">
         <br/>
-          <div className="row justify-content-center h-100 orange">
-            <div className="col-xs-12 col-sm-12 col-lg-8 text-center">
+        <div className="row justify-content-center h-100  ">
+            <div className="col-xs-12 col-sm-12 col-lg-4 text-center bg-white logoDiv">
 
-            <img src={logo} /><br/><br/><br/>
+            <img src={logo} />
             
-              
+            </div>
            </div>
-           <div className="row align-items-top">
+           <div className="row align-items-end ">
 
    
 
-         <div className="col-xs-12 col-sm-12 col-lg-7 what text-left">
-          <br/>
+         <div className="col-xs-12 col-sm-12 col-lg-7 what text-left bg-white">
+          
    
          <h4 className="text-">e-menu stops Covid-19 spreading through menus by moving them to a webpage that is quickly & easily accessible without touching any surfaces</h4>
  <br/>
@@ -59,13 +59,13 @@ class Home extends Component {
    <div className="col-xs-12 col-sm-12 col-lg-5 how text-left">
    
    
-         
+   <br/><br/>
    <video loop muted autostart autoPlay src={Video} className="howVideo"type="video/mp4" />
 
       
    </div>
    </div>
-   </div>
+  
    <br/><br/>
    <div className="row cardTings ">
       
