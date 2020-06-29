@@ -59,7 +59,7 @@ return (
          <div className="col-xs-12 col-sm-12 col-lg-1 text-center">
          </div>
          <div className="col-xs-12 col-sm-12 col-lg-5 text-center">
-            <br/><br/><br/><br/><br/><br/>
+            <br/><br/><br/>
             <h1 className ="text-left"> Our Team</h1>
             <br/>
             <h2>Brian Lynch</h2>

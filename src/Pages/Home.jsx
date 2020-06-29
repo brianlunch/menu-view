@@ -3,8 +3,11 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Navbar from '../Components/Navbar'
 import Title from '../Components/Title'
 import CardItems from '../Components/CardItems'
-
+import { Link } from 'react-router-dom' 
+import Video from '../e_menu.mp4'
 import logo from '../emenu.png'; // with import
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCheck, faWheelchair, faClock, faSmileBeam} from '@fortawesome/free-solid-svg-icons'
 
 /*This is the home page and makes use of the Navbar, 
 homeNavConatiner, homeStatsContainer and TitleContainer components */
@@ -32,37 +35,88 @@ class Home extends Component {
         <Navbar history={this.state.history} />
 
         <div className="HomePageContent text-center">
-        <br/><br/><br/>
-          <div className="row justify-content-center">
-            <div className="col-xs-12 col-sm-12 col-lg-12 text-center">
+        <br/>
+          <div className="row justify-content-center h-100 orange">
+            <div className="col-xs-12 col-sm-12 col-lg-8 text-center">
 
-            <img src={logo} /><br/><br/>
-            <h4>An Online Contactless Menu Platform, keeping your customers & business safe.</h4>
+            <img src={logo} /><br/><br/><br/>
+            
               
            </div>
+           <div className="row align-items-top">
 
-           </div>
+   
 
-           <br></br><br></br>
-             <div class = "row justify-content-center">
-             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-2">
-            <CardItems  title1="How it" title2="Works" link="how-to-use" style="card1 zoom Card-blue" icon="QR"></CardItems>
-            </div>
+         <div className="col-xs-12 col-sm-12 col-lg-7 what text-left">
+          <br/>
+   
+         <h4 className="text-">e-menu stops Covid-19 spreading through menus by moving them to a webpage that is quickly & easily accessible without touching any surfaces</h4>
+ <br/>
+ <p>e-menu provides businesess with scan sheets that link to an online menu using contactless means such as a QR code, Tag Tag or URL. </p>
+   
+   <p>For more in-depth info check out our <Link className="link" to="/faq">Frequently Asked Questions</Link> page.</p>
+   </div>
+   <div className="col-xs-12 col-sm-12 col-lg-5 how text-left">
+   
+   
+         
+   <video loop muted autostart autoPlay src={Video} className="howVideo"type="video/mp4" />
+
+      
+   </div>
+   </div>
+   </div>
+   <br/><br/>
+   <div className="row cardTings ">
+      
+      <div className="col-xs-12 col-sm-12 col-lg-12">
+      <br/><br/>
+        <h1 className="text-center text-black">Benefits of e-menu</h1><br/><br/></div>
+            <br/>
             
-            
-            
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-2">
-            <CardItems  title1="Menu" title2="Examples" link="menu-examples" style="card1 zoom Card-blue" icon="menu"></CardItems>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-2">
-            <CardItems  title1="Product" title2="Pricing" link="pricing" style="card1 zoom Card-blue" icon="euro"></CardItems>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-2">
-            <CardItems  title1="Contact" title2="Us" link="contact-us" style="card1 zoom Card-blue" icon="contact"></CardItems>
-            </div>
-            </div>
-             </div>
-        </div>
+         
+            <div className="col-xs-6 col-sm-6 col-lg-3">
+         <div className=" zoom text-center">
+         <h1 className="text-blue"><FontAwesomeIcon icon={faCheck}/></h1>
+            <h5 className="text-blmue">Abide by Guidelines</h5>
+            items requiring hand contact must be removed from use, or appropriately washed. e-menu satisfies this guideline.
+            <br/><br/>
+         </div>
+         </div>
+         <div className="col-xs-6 col-sm-6 col-lg-3">
+         <div className=" zoom text-center">
+         <h1 className="text-blue"><FontAwesomeIcon icon={faWheelchair}/></h1>
+            <h5 className="text-blmue">Improves accesibility</h5>
+            Allows visually impaired customers to use their smartphones accessbility features eg. text to speech
+         
+            <br/><br/></div>
+         </div>
+         
+         <br/> 
+         
+         <div className="col-xs-6 col-sm-6 col-lg-3">
+         <div className="zoom text-center">
+         <h1 className="text-blue"><FontAwesomeIcon icon={faClock}/></h1>
+           <h5 className="text-blmue">Quick Lead time</h5>
+           e-menu will be set up in your restaurant within 3 business days. Changes can also be made to the menu at any time.
+           <br/><br/></div>
+         </div>
+         <br></br>
+         <div className="col-xs-6 col-sm-6 col-lg-3">
+         <div className=" zoom text-center">
+         <h1 className="text-blue"><FontAwesomeIcon icon={faSmileBeam}/></h1>
+            <h5 className="text-blume">Improves Image</h5>
+            Improves a businesess image showing they care about customer & employee safety.
+            <br></br><br></br>
+            <br/><br/></div>
+         </div>
+         
+         </div>
+
+          
+
+           
+       </div></div>
         
       
     )

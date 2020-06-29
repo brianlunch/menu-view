@@ -16,13 +16,21 @@ return (
 <div className=" slide-in-fwd-center text-left">
    <Navbar history={this.state.history} />
    <div class="row contact">
-      <div className="col-xs-12 col-sm-12 col-lg-6">
-          <h2 className="text-blue">Frequently Asked Questions</h2>
+       <div className="col-12">
+   <h2 className="text-blue">Frequently Asked Questions</h2>
           <p>If you have any other questions please feel free to <Link className="link" to="contact-us">contact us</Link>.</p>
-         <br/>
+          </div>
+          </div>
+   <div class="row contact">
+
+      <div className="col-xs-12 col-sm-12 col-lg-6">
+          
+      
          <Accordion defaultActiveKey="">
+         <h4>Basics</h4>
             <Card>
                <Accordion.Toggle as={Card.Header} eventKey="0">
+                   
                   <b>What is e-menu?</b>
                </Accordion.Toggle>
                <Accordion.Collapse eventKey="0">
@@ -96,6 +104,12 @@ return (
                </Accordion.Collapse>
             </Card>
             <br/>
+            
+         </Accordion>
+      </div>
+      <div className="col-xs-12 col-sm-12 col-lg-6">
+      <Accordion defaultActiveKey="">
+            
             <h4>Payment</h4>
             <Card>
                <Accordion.Toggle as={Card.Header} eventKey="10">
@@ -103,14 +117,14 @@ return (
                </b> </Accordion.Toggle>
                <Accordion.Collapse eventKey="10">
                   <Card.Body>
-                     Payment is made through PayPal. A €5 deposit is payed through Paypal, then our designers will implement your menu and present you with it.
+                     Payment is made through PayPal. A €5 deposit is paid through Paypal, then our designers will implement your menu and present you with it.
                      <br/><br/>
-                     If you are happy with the design the remaining balance is then payed through PayPal.
+                     If you are happy with the design the remaining balance is then paid through PayPal.
                      
                   </Card.Body>
                </Accordion.Collapse>
             </Card>
-            
+            <br/>
             <h4>General</h4>
             <Card>
                <Accordion.Toggle as={Card.Header} eventKey="3">
@@ -156,6 +170,7 @@ return (
             </Card>
 
          </Accordion>
+          
       </div>
    </div>
 </div>

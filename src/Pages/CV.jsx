@@ -26,7 +26,7 @@ return (
    
    
          
-   <video loop muted autostart autoPlay src={Video} type="video/mp4" />
+   <video loop muted autostart autoPlay src={Video} className="howVideo"type="video/mp4" />
 
       
    </div>
@@ -65,7 +65,7 @@ return (
    <div className=" zoom text-center">
    <h1 className="text-blue"><FontAwesomeIcon icon={faWheelchair}/></h1>
       <h5>Improves accesibility</h5>
-      Allows visually impaired customers to use their smartphones accesbility features eg. text to speech
+      Allows visually impaired customers to use their smartphones accessbility features eg. text to speech
    
       <br/><br/></div>
    </div>

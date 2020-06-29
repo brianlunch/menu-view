@@ -30,12 +30,12 @@ class AboutMe extends Component {
                 <Accordion><Card>
                <Accordion.Toggle as={Card.Header} eventKey="10">
                  <b>How do I pay for an e-menu?
-               </b> (Click for answer) </Accordion.Toggle>
+               </b> (Click here) </Accordion.Toggle>
                <Accordion.Collapse eventKey="10">
                   <Card.Body>
-                     Payment is made through PayPal. A €5 deposit is payed through Paypal, then our designers will implement your menu and present you with it.
+                     Payment is made through PayPal. A €5 deposit is paid through Paypal, then our designers will implement your menu and present you with it.
                      <br/><br/>
-                     If you are happy with the design the remaining balance is then payed through PayPal.
+                     If you are happy with the design the remaining balance is then paid through PayPal.
                      
                   </Card.Body>
                </Accordion.Collapse>

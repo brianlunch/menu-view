@@ -14,11 +14,11 @@ class NavbarLocal extends Component {
     // var isActive = this.context.router.route.location.pathname
     let activePage = window.location.href
     return (
-      <Navbar expand="lg">
+      <Navbar expand="lg"  sticky="top">
   
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="mr-auto">
+    <Nav className="ml-auto">
             <Nav.Link
               as={Link}
               to="/"
@@ -30,16 +30,7 @@ class NavbarLocal extends Component {
             </Nav.Link>
 
 
-            <Nav.Link
-              as={Link}
-              to="/how-to-use"
-              className={
-                activePage.endsWith('/how-to-use') ? 'nav-link--active' : 'nav-link'
-              }
-            >
-              How to
-            </Nav.Link>
-
+            
             <Nav.Link
               as={Link}
               to="/menu-examples"
