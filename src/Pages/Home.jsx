@@ -38,7 +38,7 @@ class Home extends Component {
         <br/>
         <div className="row justify-content-center h-100  ">
             <div className="col-xs-12 col-sm-12 col-lg-4 text-center bg-white logoDiv">
-
+<br/>
             <img src={logo} />
             
             </div>
@@ -54,7 +54,7 @@ class Home extends Component {
  <br/>
  <p>e-menu provides businesess with scan sheets that link to an online menu using contactless means such as a QR code, Tag Tag or URL. </p>
    
-   <p>For more in-depth info check out our <Link className="link" to="/faq">Frequently Asked Questions</Link> page.</p>
+   <p>For more in-depth info check out our <Link className="link text-blue" to="/faq">Frequently Asked Questions</Link> page.</p>
    </div>
    <div className="col-xs-12 col-sm-12 col-lg-5 how text-left">
    

@@ -20,15 +20,24 @@ class Pricing extends Component {
                   <div className="priceOption text-center">
                 <h2 className="text-blue text-center">Basic</h2>
                 <br/>
-                <h2>€30</h2>
+                <div className="row justify-content-right">
+
+                  <div className="col-5">
+                  <h2 className="strikethrough">€30</h2>
+                  </div>
+                  <div className="col-4 text-left text-blue">
+                  <h2 >FREE</h2>
+                  </div>
+                </div>
+                
                 <br/>
                 <div className="text-left features">
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Menu From Samples</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;PDF of Scan Sheet</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Scannable QR Code</h6>
                     
-                    <h6 ><FontAwesomeIcon className="text-red" icon={faTimes}/>&nbsp;&nbsp;Custom Scan Sheet</h6>
-                    <h6 ><FontAwesomeIcon className="text-red" icon={faTimes}/>&nbsp;&nbsp;Contactless Tap Tag</h6>
+                    <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Custom Scan Sheet</h6>
+                    <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Contactless Tap Tag</h6>
                     <h6 ><FontAwesomeIcon className="text-red" icon={faTimes}/>&nbsp;&nbsp;Printed Scan Sheet</h6>
                     <h6 ><FontAwesomeIcon className="text-red" icon={faTimes}/>&nbsp;&nbsp;A5 Sheet Holders</h6>
                     <h6 ><FontAwesomeIcon className="text-red" icon={faTimes}/>&nbsp;&nbsp; <b>Free</b> Menu Changes for 1 month</h6>
