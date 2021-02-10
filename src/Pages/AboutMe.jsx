@@ -22,7 +22,7 @@ class AboutMe extends Component {
             <div className="text-left slide-in-fwd-center">
                 <Navbar history={this.state.history} />
                 <div className="price">
-                <h2 className="text-blue">Pricing</h2>
+                <h1 className="text-blue">Pricing</h1>
                 
                 <h4>We have 3 different pricing models to choose from: </h4>
                 <p >Need help choosing a plan? Feel free to <Link className="link text-blue" to ="/contact-us">Contact Us</Link>.

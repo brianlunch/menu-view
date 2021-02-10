@@ -12,3 +12,19 @@ npm i react-bootstrap
 npm i react-router-dom
 
 npm i axios
+
+
+
+APP.JS
+
+import Home from './Pages/Home'
+
+**GOOLGE ANALYTICS SEE E-MENU**
+
+<div className="App">
+      <HashRouter basename={process.env.PUBLIC_URL} history={history}>
+        <Switch>
+          <Route exact path={'/'}component={Home}/>
+		 <Switch>
+		</HashRouter>
+</div>

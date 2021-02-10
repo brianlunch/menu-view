@@ -23,7 +23,7 @@ class Portfolio extends Component {
       <div className="portfolio slide-in-fwd-center text-left">
           <Navbar history={this.state.history}></Navbar>
           <div className=" howTo ">
-        <h2 className="text-blue text-left">Menu Examples</h2>
+        <h1 className="text-blue text-left">Menu Examples</h1>
         <br></br><br></br>
         <div className="row text-center">
 

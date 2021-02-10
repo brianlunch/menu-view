@@ -24,7 +24,7 @@ return (
       <div className="row">
          <div className="col-xs-12 col-sm-12 col-lg-5">
             
-            <h2 className="text-blue">Contact Us</h2>
+            <h1 className="text-blue">Contact Us</h1>
             <p>
                To order a plan please state which plan you are interested in and our team will be in touch with further details! </p>
            

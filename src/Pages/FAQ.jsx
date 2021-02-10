@@ -17,7 +17,7 @@ return (
    <Navbar history={this.state.history} />
    <div class="row contact">
        <div className="col-12">
-   <h2 className="text-blue">Frequently Asked Questions</h2>
+   <h1 className="text-blue">Frequently Asked Questions</h1>
           <p>If you have any other questions please feel free to <Link className="link" to="contact-us">contact us</Link>.</p>
           </div>
           </div>

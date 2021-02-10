@@ -36,21 +36,16 @@ class Home extends Component {
 
         <div className="HomePageContent text-center">
         <br/>
-        <div className="row justify-content-center h-100  ">
-            <div className="col-xs-12 col-sm-12 col-lg-4 text-center bg-white logoDiv">
-<br/>
-            <img src={logo} />
-            
-            </div>
-           </div>
+        
            <div className="row align-items-end ">
 
    
 
          <div className="col-xs-12 col-sm-12 col-lg-7 what text-left bg-white">
-          
+         <h1 className="display-1 text-blue titleGradient">e-menu</h1>
+         <br/>
    
-         <h4 className="text-">e-menu stops Covid-19 spreading through menus by moving them to a webpage that is quickly & easily accessible without touching any surfaces</h4>
+         <p>e-menu stops Covid-19 spreading through menus by moving them to a webpage that is quickly & easily accessible without touching any surfaces</p>
  <br/>
  <p>e-menu provides businesess with scan sheets that link to an online menu using contactless means such as a QR code, Tag Tag or URL. </p>
    

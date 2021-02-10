@@ -20,15 +20,7 @@ class Pricing extends Component {
                   <div className="priceOption text-center">
                 <h2 className="text-blue text-center">Basic</h2>
                 <br/>
-                <div className="row justify-content-right">
-
-                  <div className="col-5">
-                  <h2 className="strikethrough">€30</h2>
-                  </div>
-                  <div className="col-4 text-left text-blue">
-                  <h2 >FREE</h2>
-                  </div>
-                </div>
+                <h2>€40</h2>
                 
                 <br/>
                 <div className="text-left features">
@@ -39,7 +31,6 @@ class Pricing extends Component {
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Custom Scan Sheet</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Contactless Tap Tag</h6>
                     <h6 ><FontAwesomeIcon className="text-red" icon={faTimes}/>&nbsp;&nbsp;Printed Scan Sheet</h6>
-                    <h6 ><FontAwesomeIcon className="text-red" icon={faTimes}/>&nbsp;&nbsp;A5 Sheet Holders</h6>
                     <h6 ><FontAwesomeIcon className="text-red" icon={faTimes}/>&nbsp;&nbsp; <b>Free</b> Menu Changes for 1 month</h6>
                     </div>
                     <br></br>
@@ -69,7 +60,6 @@ class Pricing extends Component {
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Custom Scan Sheet</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Contactless Tap Tag</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp; 5x A5 Printed Scan Sheets</h6>
-                    <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp; 5x A5 Sheet Holders</h6>
                     <h6 ><FontAwesomeIcon className="text-red" icon={faTimes}/>&nbsp;&nbsp; <b>Free</b> Menu Changes for 1 month</h6>
                     
                     
@@ -103,7 +93,6 @@ class Pricing extends Component {
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Custom Scan Sheet</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;Contactless Tap Tag</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;10x A5 Printed Scan Sheet</h6>
-                    <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp;10x A5 Sheet Holders</h6>
                     <h6 ><FontAwesomeIcon className="text-green" icon={faCheck}/>&nbsp;&nbsp; <b>Free</b> Menu Changes for 1 month</h6>
                     
                     
